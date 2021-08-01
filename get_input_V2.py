@@ -5,10 +5,12 @@ name = ""
 count = 0
 max_tickets = 5
 
-while name!= "xxx" and count < max_tickets:
+while name!= "quit" and count < max_tickets:
 
 # get details
     name = input("Name:")
+    if name == "quit":
+        break
     count += 1
     print()
 
