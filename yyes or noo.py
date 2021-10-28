@@ -1,4 +1,4 @@
-# string checking functions, takes in
+ # string checking functions, takes in
 # question and list of valid responses
 
 def string_checker(question, to_check):

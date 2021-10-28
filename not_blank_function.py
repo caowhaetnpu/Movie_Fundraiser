@@ -1,4 +1,4 @@
-# Functions go there
+ # Functions go there
 
 def not_blank(question):
     valid = False
